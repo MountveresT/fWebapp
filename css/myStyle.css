@@ -1,0 +1,62 @@
+html {
+    width: 100%; /* width=breite, 1% = 1% der Fensterbreite*/
+    margin:0; /* margin=Abstand nach Aussen */
+    padding: 0; /* padding=Abstand nach Innen */
+}
+
+body{
+    width:95%;
+    background-color: rgba(235, 171, 221, 0.459); /*background=Hintergrund, color=Farbe*/
+    font-size: 20px; /*font=Schrift, size=Grösse*/
+    color: rgb(86, 224, 248);
+    margin:0;
+    padding:2.5% 2.5% 0 2.5%; /* 2.5% 2.5% 0 2.5% = oben=2.5% rechts=2.5% unten=0 links=2.5% */
+}
+
+h1 {
+    clear: left; /* clear=auf neue Zeile, left=linksbündig */
+	color: #434e03;
+	font-size: 1.5em; /*3em = das 1.5-fache der normalen Grösse (Schriftgrösse des Elternelements, hier body)*/
+    width: 100%;
+    margin: 2% 0 2% 0; 
+}
+.mainTitle{
+    border-top: solid 0.1em #f5aca0; /*Rahmen = border, top = oben, solid=durchgezogen, 0.25em=Dicke des Rahmens, #0B5345=Farbe des Rahmens*/
+	border-bottom: solid 0.25em rgb(22, 11, 83); /*bottom = unten*/
+}
+h2{
+    margin:0; /* 0 = 0 0 0 0 */
+    text-decoration: underline;
+}
+
+a {
+	text-decoration: underline; /* text-decoration:underline=unterstrichen */
+    color: #138D75;
+}
+a:hover {
+	color: #ffffff;
+}
+
+img{
+    clear: left;
+    width: 100%; /* 100%=Breite des Elternelements (hier body) */
+}
+
+p{
+    clear: left;
+    margin-bottom:0.5em;
+}
+
+#navigation {
+    float: left;
+    clear:left;
+    width: 98%;
+    background-color: rgb(247, 190, 6);
+    color: #ABEBC6;
+    font-size: 2em;
+    margin: 0 0 1.5em 0;
+    padding: 1%;
+}
+#navigation a {
+    color: #ABEBC6;
+}
