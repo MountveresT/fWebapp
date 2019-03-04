@@ -8,12 +8,13 @@ body{
     width:95%;
     background-color: rgb(117, 2, 92); /*background=Hintergrund, color=Farbe*/
     font-size: 20px; /*font=Schrift, size=Grösse*/
-    color: rgb(185, 242, 252);
+    color: #ffffff;
     margin:0;
     padding:2.5% 2.5% 0 2.5%; /* 2.5% 2.5% 0 2.5% = oben=2.5% rechts=2.5% unten=0 links=2.5% */
+
 }
 
-h1 {
+ h1 {
     clear: left; /* clear=auf neue Zeile, left=linksbündig */
 	color: rgb(117, 2, 92);
 	font-size: 1.5em; /*3em = das 1.5-fache der normalen Grösse (Schriftgrösse des Elternelements, hier body)*/
